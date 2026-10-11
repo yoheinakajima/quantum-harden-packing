@@ -5,13 +5,16 @@ and [when-hardening-helps](https://yoheinakajima.github.io/when-hardening-helps/
 
 ## Core idea
 
-The when-hardening-helps project established that **the disk scaffold determines
-the hardening outcome** (scaffold fidelity → harden gap, rho=-0.56, replicated
-at rho=-0.80 on held-out data; good-scaffold transplant succeeds 8/8). The
-scaffold is the causal bottleneck.
+The when-hardening-helps project found that scaffold fidelity is a promising
+held-out correlate of hardening success (scaffold fidelity → harden gap,
+rho=-0.56, replicated on held-out batches). Good-scaffold warm starts can be
+sufficient under a compatible morph path (transplant succeeds 8/8), but traps
+are probabilistic, not deterministic — C15 showed they are *not*
+scaffold-determined; the compress dynamics matter too.
 
-This project asks: **can quantum annealing (or quantum-inspired classical
-methods) sample better scaffolds than classical random initialization?**
+This project asks: **whether better scaffold sampling improves outcomes** —
+can quantum annealing (or quantum-inspired classical methods) sample better
+scaffolds than classical random initialization?
 
 ## Hybrid pipeline
 
